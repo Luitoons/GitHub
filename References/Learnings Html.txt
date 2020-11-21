@@ -1,0 +1,95 @@
+-Primeiro temos de fazer o corpo essencial do html
+  <!DOCTYPE html> - para dizer qual é o tipo de ficheiro
+  que vamos fazer.
+  <html></html> o que vamos por por dentro é o que vai
+  fazer o website.
+  <head></head> é onde vamos por o titulo do site a
+  descrição e vamos dar as "regras" do website.
+  <body></body> é onde vamos fazer o website!
+
+-Segundo preencher a <head>
+  -primeiro vamos dizer qual é o character set:
+    <meta charset="UTF-8">
+    UTF-8 é o tipo de character set que vai ser usado.
+  -Segundo vamos dar um titlo ao website com o seguinte
+  código:
+    <title>Luis Website</title>
+    sendo o Luis Website o nome do Website
+  -Terceiro dar uma descrição ao Website:
+    <meta name="description" content="Esta é a descrição">
+    sendo a descrição a "esta e a descrição"
+
+  -Terceiro vamos preencher o <body>
+    Com Texto:
+    	Podesmos usar o <h1>titulo</h1> podendo mudar o
+    	número do 1 a 6 dependendo do tamanho que queira.
+
+    	Também podemos usar o
+    	<p>Isto é um <i><b>parágrafo</b></i></p>
+    	para fazer um parágrafo. <p> é para o parágrafo.
+    	<b> é para por em bold
+    	<i> é para por em itálico
+    	Para fazer outro parágrafo podemos por em baixo
+    	outra linha com <p>
+
+    	Para fazer um espaço entre parágrafo e titulos
+    	basta por entre parágrafo
+    	e tituls <br/> quantas vezes necessária
+
+    	Para fazer uma linha horizontal entre parágrafos
+    	e titulos basta por <hr/>
+
+    	<hr/> -> É uma single tag
+    	<p></p> -> é uma tag
+
+    	Se eu quiser fazer um texto maior do que outros
+    	posso usar <big></big> e para por mais pequeno
+    	uso <small></small>
+
+    	Se eu quiser por exemplo escrever h2O e quiser
+    	que o 2 fique muito mais pequeno que o resto
+    	posso usar <sub>2</sub> e se quiser fazer
+    	x ao quadrado x2 posso usar <sup>2</sup>
+
+
+      Se quiser fazer um comentário que não se veja no site posso
+      usar <!-- comentário -->
+
+
+      Cor:
+      Para por uma cor num parágrafo podemos usar dentro do <p>
+      <p style="color: blue;"> sendo azul a cor escolhida. Se quiser
+      mudar o background posso usar <p style="background-color: red;"
+      sendo a cor escolhida o vermelho. Podemos aplicar isto até no <body>
+      inteiro
+
+
+      Estrutura do <body> :
+      <header>
+
+      </header>
+      <main>
+
+
+      </main>
+      <footer>
+
+      </footer>
+      acho que explica-se por si o que está a acontecer aqui!
+
+
+
+      Navigation itens vão para dentro de uma tag de <nav></nav>
+
+      Informação de para um artigo <article></article> e podemos separar
+      o texto com uma <section></section> . Geralmente põe-se uma header
+      dentro de cada secção.
+
+      As headers podemos organizar assim:
+      h1
+        h2
+          h3
+        h2
+
+      <aside></aside> é usado para adds por exemplo. Não têm a haver
+      com a informação principal!
